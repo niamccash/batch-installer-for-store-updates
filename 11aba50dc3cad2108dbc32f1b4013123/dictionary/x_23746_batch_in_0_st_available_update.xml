@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="2afbed0dc3cad2108dbc32f1b401316c" label="Available update" max_length="40" name="x_23746_batch_in_0_st_available_update" type="collection">
+    <element attributes="read_only=true" db_object_id="2afbed0dc3cad2108dbc32f1b401316c" label="Available update" max_length="40" name="x_23746_batch_in_0_st_available_update" type="collection">
         <element label="Avail. Minor" max_length="40" name="minor_count" type="integer"/>
         <element label="Latest Minor version" max_length="32" name="latest_minor_version" reference="sys_app_version" type="reference"/>
         <element choice="1" label="Latest version level" max_length="40" name="latest_version_level" type="choice">
@@ -22,6 +22,7 @@
         <element label="Application" max_length="32" name="application" reference="sys_store_app" type="reference"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element label="Available version" max_length="32" name="available_version" reference="sys_app_version" type="reference"/>
+        <element default="5a7e7af0c32312108dbc32f1b40131c2" label="Actions" max_length="1024" name="actions" type="glide_action_list"/>
         <element label="Avail. Major" max_length="40" name="major_count" type="integer"/>
         <index name="index">
             <element name="application"/>

@@ -9,11 +9,11 @@
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>nia.mccash</sys_created_by>
-            <sys_created_on>2025-01-03 20:02:55</sys_created_on>
-            <sys_id>79f83ef2c37ed6908dbc32f1b40131d2</sys_id>
+            <sys_created_on>2025-02-03 22:15:21</sys_created_on>
+            <sys_id>fb8043b4c32312108dbc32f1b401311c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nia.mccash</sys_updated_by>
-            <sys_updated_on>2025-01-03 20:02:55</sys_updated_on>
+            <sys_updated_on>2025-02-03 22:15:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -24,11 +24,11 @@
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>nia.mccash</sys_created_by>
-            <sys_created_on>2025-01-03 20:02:55</sys_created_on>
-            <sys_id>7df83ef2c37ed6908dbc32f1b40131d2</sys_id>
+            <sys_created_on>2025-02-03 22:15:21</sys_created_on>
+            <sys_id>b38043b4c32312108dbc32f1b401311d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nia.mccash</sys_updated_by>
-            <sys_updated_on>2025-01-03 20:02:55</sys_updated_on>
+            <sys_updated_on>2025-02-03 22:15:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -39,11 +39,11 @@
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>nia.mccash</sys_created_by>
-            <sys_created_on>2025-01-03 20:02:55</sys_created_on>
-            <sys_id>71f83ef2c37ed6908dbc32f1b40131d3</sys_id>
+            <sys_created_on>2025-02-03 22:15:21</sys_created_on>
+            <sys_id>378043b4c32312108dbc32f1b401311d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nia.mccash</sys_updated_by>
-            <sys_updated_on>2025-01-03 20:02:55</sys_updated_on>
+            <sys_updated_on>2025-02-03 22:15:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -54,11 +54,11 @@
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>nia.mccash</sys_created_by>
-            <sys_created_on>2025-01-03 20:02:55</sys_created_on>
-            <sys_id>f5f83236c37ed6908dbc32f1b401319d</sys_id>
+            <sys_created_on>2025-02-03 22:15:21</sys_created_on>
+            <sys_id>b78043b4c32312108dbc32f1b401311d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nia.mccash</sys_updated_by>
-            <sys_updated_on>2025-01-03 20:02:55</sys_updated_on>
+            <sys_updated_on>2025-02-03 22:15:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -69,11 +69,26 @@
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>nia.mccash</sys_created_by>
-            <sys_created_on>2025-01-03 20:02:55</sys_created_on>
-            <sys_id>f9f83236c37ed6908dbc32f1b401319d</sys_id>
+            <sys_created_on>2025-02-03 22:15:21</sys_created_on>
+            <sys_id>3b8043b4c32312108dbc32f1b401311d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nia.mccash</sys_updated_by>
-            <sys_updated_on>2025-01-03 20:02:55</sys_updated_on>
+            <sys_updated_on>2025-02-03 22:15:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>actions</element>
+            <list_id display_value="x_23746_batch_in_0_st_available_update" element="NULL" name="x_23746_batch_in_0_st_available_update" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3df83ef2c37ed6908dbc32f1b40131d1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>nia.mccash</sys_created_by>
+            <sys_created_on>2025-02-03 22:15:21</sys_created_on>
+            <sys_id>bb8043b4c32312108dbc32f1b401311d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nia.mccash</sys_updated_by>
+            <sys_updated_on>2025-02-03 22:15:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -87,7 +102,7 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>nia.mccash</sys_created_by>
-            <sys_created_on>2025-01-03 20:02:55</sys_created_on>
+            <sys_created_on>2025-02-03 22:15:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>3df83ef2c37ed6908dbc32f1b40131d1</sys_id>
@@ -98,7 +113,7 @@
             <sys_scope display_value="Batch Installer for Store Updates">11aba50dc3cad2108dbc32f1b4013123</sys_scope>
             <sys_update_name>sys_ui_list_x_23746_batch_in_0_st_available_update_null</sys_update_name>
             <sys_updated_by>nia.mccash</sys_updated_by>
-            <sys_updated_on>2025-01-03 20:02:55</sys_updated_on>
+            <sys_updated_on>2025-02-03 22:15:21</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

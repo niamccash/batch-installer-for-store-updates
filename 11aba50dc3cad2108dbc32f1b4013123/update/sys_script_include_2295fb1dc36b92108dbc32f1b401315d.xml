@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_23746_batch_in_0.StoreLinkUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>StoreLinkUtil</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var StoreLinkUtil = Class.create();
+StoreLinkUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getStoreLink: function() {
+        var target_sys_id = this.getParameter('sysparm_target_sys_id');
+        var store_url = '';
+
+        var gr = new GlideRecord('sys_app_version');
+        if (gr.get(target_sys_id) && gr.getValue('source_app_id') && gr.getValue('version')) {
+            store_url = "https://appstoreprod.service-now.com/sn_appstore_store.do#!/store/application/" + gr.getValue('source_app_id') + "/" + gr.getValue('version');
+        }
+
+        return store_url;
+    },
+
+    type: 'StoreLinkUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>nia.mccash</sys_created_by>
+        <sys_created_on>2025-02-05 15:36:51</sys_created_on>
+        <sys_id>2295fb1dc36b92108dbc32f1b401315d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>StoreLinkUtil</sys_name>
+        <sys_package display_value="Batch Installer for Store Updates" source="x_23746_batch_in_0">11aba50dc3cad2108dbc32f1b4013123</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Batch Installer for Store Updates">11aba50dc3cad2108dbc32f1b4013123</sys_scope>
+        <sys_update_name>sys_script_include_2295fb1dc36b92108dbc32f1b401315d</sys_update_name>
+        <sys_updated_by>nia.mccash</sys_updated_by>
+        <sys_updated_on>2025-08-26 20:09:30</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2295fb1dc36b92108dbc32f1b401315d</id>
+        <sys_created_by>nia.mccash</sys_created_by>
+        <sys_created_on>2025-02-05 15:36:51</sys_created_on>
+        <sys_id>0e887fddc36b92108dbc32f1b401316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nia.mccash</sys_updated_by>
+        <sys_updated_on>2025-02-05 15:36:51</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
